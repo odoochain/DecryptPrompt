@@ -49,6 +49,18 @@
 - [解密Prompt系列37. RAG之前置决策何时联网的多种策略](https://cloud.tencent.com/developer/article/2448156)
 - [解密Prompt系列38. 多Agent路由策略](https://cloud.tencent.com/developer/article/2451000)
 - [解密prompt系列39. RAG之借助LLM优化精排环节](https://cloud.tencent.com/developer/article/2453693)
+- [解密prompt系列40. LLM推理scaling Law](https://cloud.tencent.com/developer/article/2456441)
+- [解密prompt系列41. GraphRAG真的是Silver Bullet？](https://cloud.tencent.com/developer/article/2461325)
+- [解密prompt系列42. LLM通往动态复杂思维链之路](https://cloud.tencent.com/developer/article/2464011)
+- [解密prompt系列43. LLM Self Critics](https://cloud.tencent.com/developer/article/2468406)
+- [解密prompt系列44. RAG探索模式？深度思考模式？](https://cloud.tencent.com/developer/article/2474048)
+- [解密Prompt系列45. 再探LLM Scalable Oversight -辩论、博弈哪家强](https://cloud.tencent.com/developer/article/2479401)
+- [解密prompt系列46. LLM结构化输出代码示例和原理分析](https://cloud.tencent.com/developer/article/2483500)
+- [解密prompt系列47. O1 Long Thought的一些特征分析](https://cloud.tencent.com/developer/article/2487221)
+- [​解密prompt系列48. DeepSeek R1 & Kimi 1.5长思维链 - RL Scaling](https://cloud.tencent.com/developer/article/2493924)
+- [​解密prompt系列49. 回顾R1之前的思维链发展](https://cloud.tencent.com/developer/article/2497501)
+- [解密prompt系列50. RL用于优化Agent行为路径的一些思路](https://cloud.tencent.com/developer/article/2502322)
+
 
 ## 论文汇总
 ### paper List
@@ -59,91 +71,7 @@
 - https://github.com/MLGroupJLU/LLM-eval-survey
 - https://github.com/thu-coai/PaperForONLG
 - https://github.com/khuangaf/Awesome-Chart-Understanding
-
-### 综述
-- A Survey of Large Language Models
-- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
-- Paradigm Shift in Natural Language Processing
-- Pre-Trained Models: Past, Present and Future
-- What Language Model Architecture and Pretraining objects work best for zero shot generalization  :star:
-- Towards Reasoning in Large Language Models: A Survey
-- Reasoning with Language Model Prompting: A Survey :star:
-- An Overview on Language Models: Recent Developments and Outlook  :star:
-- A Survey of Large Language Models[6.29更新版]
-- Unifying Large Language Models and Knowledge Graphs: A Roadmap
-- Augmented Language Models: a Survey :star:
-- Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
-- Challenges and Applications of Large Language Models
-- The Rise and Potential of Large Language Model Based Agents: A Survey
-- Large Language Models for Information Retrieval: A Survey
-- AI Alignment: A Comprehensive Survey
-- Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications
-- Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
-- A Survey on Language Models for Code
-- Model-as-a-Service (MaaS): A Survey
-
-### 大模型能力探究
-- In Context Learning 
-  - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
-  - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
-  - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
-  - Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
-  - Trained Transformers Learn Linear Models In-Context
-  - In-Context Learning Creates Task Vectors
-- 涌现能力
-  - Sparks of Artificial General Intelligence: Early experiments with GPT-4
-  - Emerging Ability of Large Language Models :star:
-  - LANGUAGE MODELS REPRESENT SPACE AND TIME
-  - Are Emergent Abilities of Large Language Models a Mirage?
-- 能力评估
-  - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
-  - Can Large Language Models Infer Causation from Correlation?
-  - Holistic Evaluation of Language Model
-  - Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
-  - Theory of Mind May Have Spontaneously Emerged in Large Language Models
-  - Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
-  - Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
-  - Demystifying GPT Self-Repair for Code Generation
-  - Evidence of Meaning in Language Models Trained on Programs
-  - Can Explanations Be Useful for Calibrating Black Box Models
-  - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective 
-  - Language acquisition: do children and language models follow similar learning stages?
-  - Language is primarily a tool for communication rather than thought
-- 领域能力
-  - Capabilities of GPT-4 on Medical Challenge Problems
-  - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
-
-### Prompt Tunning范式
-- Tunning Free Prompt
-  - GPT2: Language Models are Unsupervised Multitask Learners
-  - GPT3: Language Models are Few-Shot Learners   :star:
-  - LAMA: Language Models as Knowledge Bases?
-  - AutoPrompt: Eliciting Knowledge from Language Models
-- Fix-Prompt LM Tunning
-  - T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
-  - PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference  :star:
-  - PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
-  - GenPET: Few-Shot Text Generation with Natural Language Instructions
-  - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners  :star:
-  - ADEPT: Improving and Simplifying Pattern Exploiting Training
-- Fix-LM Prompt Tunning 
-  - Prefix-tuning: Optimizing continuous prompts for generation  
-  - Prompt-tunning: The power of scale for parameter-efficient prompt tuning :star:
-  - P-tunning: GPT Understands Too :star:
-  - WARP: Word-level Adversarial ReProgramming
-- LM + Prompt Tunning 
-  - P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
-  - PTR: Prompt Tuning with Rules for Text Classification
-  - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
-- Fix-LM Adapter Tunning
-  - LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS :star:
-  - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
-  - Parameter-Efficient Transfer Learning for NLP
-  - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
-  - DoRA: Weight-Decomposed Low-Rank Adaptation
--  Representation Tuning
-  - ReFT: Representation Finetuning for Language Models
-
+- https://github.com/srush/awesome-o1/?tab=readme-ov-file
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -168,6 +96,253 @@
 - QWEN TECHNICAL REPORT
 - Fewer Truncations Improve Language Modeling
 - ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
+- Phi-4 Technical Report
+- Byte Latent Transformer: Patches Scale Better Than Tokens
+- Qwen2.5 Technical Report
+- DeepSeek-V3 Technical Report
+- Mixtral of Experts
+- DeepSeek_R1  :star:
+- KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
+
+
+### 思维链 (prompt_chain_of_thought)
+- 基础&进阶用法
+    - 【zero-shot-COT】 Large Language Models are Zero-Shot Reasoners :star:
+    - 【few-shot COT】 Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
+    - 【SELF-CONSISTENCY 】IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
+    - 【LEAST-TO-MOST】 PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS :star:
+    - 【TOT】Tree of Thoughts: Deliberate Problem Solving with Large Language Models :star:
+    - 【Plan-and-Solve】 Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
+    - 【Verify-and-Edit】: A Knowledge-Enhanced Chain-of-Thought Framework
+    - 【GOT】Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
+    - 【TOMT】Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning
+    - 【LAMBADA】: Backward Chaining for Automated Reasoning in Natural Language
+    - 【AOT】Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models :star:
+    - 【GOT】Graph of Thoughts: Solving Elaborate Problems with Large Language Models :star:
+    - 【PHP】Progressive-Hint Prompting Improves Reasoning in Large Language Models
+    - 【HtT】LARGE LANGUAGE MODELS CAN LEARN RULES :star:
+    - 【DIVSE】DIVERSITY OF THOUGHT IMPROVES REASONING ABILITIES OF LARGE LANGUAGE MODELS
+    - 【CogTree】From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
+    - 【Step-Back】Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models :star:
+    - 【OPRO】LARGE LANGUAGE MODELS AS OPTIMIZERS :star:
+    - 【BOT】Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
+    - Abstraction-of-Thought Makes Language Models Better Reasoners
+    - 【SymbCoT】Faithful Logical Reasoning via Symbolic Chain-of-Thought
+    - 【XOT】EVERYTHING OF THOUGHTS : DEFYING THE LAW OF PENROSE TRIANGLE FOR THOUGHT GENERATION
+    - 【IoT】Iteration of Thought: Leveraging Inner Dialogue for Autonomous Large Language Model Reasoning
+    - 【DOT】On the Diagram of Thought
+    - 【ROT】Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up.
+    - Thinking Forward and Backward: Effective Backward Planning with Large Language Models
+    - 【KR】K-Level Reasoning: Establishing Higher Order Beliefs in Large Language Models for Strategic Reasoning
+    -  【Self-Discover】SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
+    - 【Theory-of-Mind】HOW FAR ARE LARGE LANGUAGE MODELS FROMAGENTS WITH THEORY-OF-MIND?
+    - 【PC-SUBQ】Prompting Strategies for Enabling Large Language Models to Infer Causation from Correlation
+    - Reverse Thinking Makes LLMs Stronger Reasoners
+    - Chain of Draft: Thinking Faster by Writing Less
+- 非传统COT问题分解方向
+    - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
+    - Successive Prompting for Decomposing Complex Questions
+- 分领域COT [Math, Code, Tabular, QA]
+    - Solving Quantitative Reasoning Problems with Language Models
+    - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
+    - Solving math word problems with processand outcome-based feedback
+    - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
+    - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
+    - LEARNING PERFORMANCE-IMPROVING CODE EDITS
+    - Chain of Code: Reasoning with a Language Model-Augmented Code Emulator
+- 原理分析
+    - Chain of Thought Empowers Transformers to Solve Inherently Serial Problems :star:
+    - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters  :star:
+    - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
+    - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
+    - Large Language Models Can Be Easily Distracted by Irrelevant Context
+    - Chain-of-Thought Reasoning Without Prompting
+    - Inductive or Deductive? Rethinking the Fundamental Reasoning Abilities of LLMs
+    - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
+    - To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning :star:
+    - Why think step by step? Reasoning emerges from the locality of experience
+   -  Internal Consistency and Self-Feedback in Large Language Models: A Survey :star:
+   - Iteration Head: A Mechanistic Study of Chain-of-Thought :star:
+   - The Impact of Reasoning Step Length on Large Language Models :star:
+   - Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?
+   - Compressed Chain of Thought: Efficient Reasoning Through Dense Representations
+   - Do LLMs Really Think Step-by-step In Implicit Reasoning?
+- 小模型COT蒸馏
+    - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
+    - Teaching Small Language Models to Reason 
+    - Large Language Models are Reasoning Teachers
+    - Distilling Reasoning Capabilities into Smaller Language Models
+    - The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning
+    - Distilling System 2 into System 1
+- COT样本自动构建/选择
+    - AutoCOT：AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
+    - Active Prompting with Chain-of-Thought for Large Language Models
+    - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
+- COT能力学习
+   - Large Language Models Can Self-Improve
+   - Training Chain-of-Thought via Latent-Variable Inference
+   - Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking
+   - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning 
+   - V-STaR: Training Verifiers for Self-Taught Reasoners
+   - THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS
+   - SELF-DIRECTED SYNTHETIC DIALOGUES AND REVISIONS TECHNICAL REPORT
+- others
+    - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
+    - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
+    - Large Language Models are Better Reasoners with Self-Verification
+    - ThoughtSource A central hub for large language model reasoning data
+    - Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs
+
+### RLHF
+- Deepmind
+  - Teaching language models to support answers with verified quotes
+  - sparrow, Improving alignment of dialogue agents via targetd human judgements :star:
+  - STATISTICAL REJECTION SAMPLING IMPROVES PREFERENCE OPTIMIZATION
+  - Reinforced Self-Training (ReST) for Language Modeling
+  - SLiC-HF: Sequence Likelihood Calibration with Human Feedback
+  - CALIBRATING SEQUENCE LIKELIHOOD IMPROVES CONDITIONAL LANGUAGE GENERATION
+  - REWARD DESIGN WITH LANGUAGE MODELS
+  - Final-Answer RL Solving math word problems with processand outcome-based feedback
+  - Solving math word problems with process- and outcome-based feedback
+  - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
+  - BOND: Aligning LLMs with Best-of-N Distillation
+  - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
+  - Generative Verifiers: Reward Modeling as Next-Token Prediction
+  - Training Language Models to Self-Correct via Reinforcement Learning
+- openai
+  - PPO: Proximal Policy Optimization Algorithms :star:
+  - Deep Reinforcement Learning for Human Preference
+  - Fine-Tuning Language Models from Human Preferences
+  - learning to summarize from human feedback
+  - InstructGPT: Training language models to follow instructions with human feedback :star:
+  - Scaling Laws for Reward Model Over optimization :star:
+  - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
+  - PRM：Let's verify step by step  :star:
+  - Training Verifiers to Solve Math Word Problems [PRM的前置依赖]
+  - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
+  - LLM Critics Help Catch LLM Bugs :star:
+  - PROVER-VERIFIER GAMES IMPROVE LEGIBILITY OF LLM OUTPUTS
+  - Rule Based Rewards for Language Model Safety
+  - Self-critiquing models for assisting human evaluators
+- Anthropic
+  - A General Language Assistant as a Laboratory for Alignmen 
+  - Measuring Progress on Scalable Oversight or Large Language Models
+  - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
+  - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback  :star:
+  - Constitutional AI Harmlessness from AI Feedback :star:
+  - Pretraining Language Models with Human Preferences
+  - The Capacity for Moral Self-Correction in Large Language Models
+  - Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Trainin
+- AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
+- 改良方案 
+  - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
+  - Chain of Hindsight Aligns Language Models with Feedback
+  - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
+  - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
+  - RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback
+  - Training Socially Aligned Language Models in Simulated Human Society
+  - RAIN: Your Language Models Can Align Themselves without Finetuning
+  - Generative Judge for Evaluating Alignment
+  - PEERING THROUGH PREFERENCES: UNRAVELING FEEDBACK ACQUISITION FOR ALIGNING LARGE LANGUAGE MODELS
+  - SALMON: SELF-ALIGNMENT WITH PRINCIPLE-FOLLOWING REWARD MODELS
+  - Large Language Model Unlearning :star:
+  - ADVERSARIAL PREFERENCE OPTIMIZATION :star:
+  - Preference Ranking Optimization for Human Alignment
+  - A Long Way to Go: Investigating Length Correlations in RLHF
+  - ENABLE LANGUAGE MODELS TO IMPLICITLY LEARN SELF-IMPROVEMENT FROM DATA
+  - REWARD MODEL ENSEMBLES HELP MITIGATE OVEROPTIMIZATION
+  - LEARNING OPTIMAL ADVANTAGE FROM PREFERENCES AND MISTAKING IT FOR REWARD
+  - ULTRAFEEDBACK: BOOSTING LANGUAGE MODELS WITH HIGH-QUALITY FEEDBACK
+  - MOTIF: INTRINSIC MOTIVATION FROM ARTIFICIAL INTELLIGENCE FEEDBACK
+  - STABILIZING RLHF THROUGH ADVANTAGE MODEL AND SELECTIVE REHEARSAL
+  - Shepherd: A Critic for Language Model Generation
+  - LEARNING TO GENERATE BETTER THAN YOUR LLM
+  - Fine-Grained Human Feedback Gives Better Rewards for Language Model Training
+  - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
+  - Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+  - HIR The Wisdom of Hindsight Makes Language Models Better Instruction Followers
+  - Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction
+  - A Minimaximalist Approach to Reinforcement Learning from Human Feedback
+  - PANDA: Preference Adaptation for Enhancing Domain-Specific Abilities of LLMs
+  - Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models
+  - Weak-to-Strong Extrapolation Expedites Alignment
+  - Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study
+  - Token-level Direct Preference Optimization
+  - SimPO: Simple Preference Optimization with a Reference-Free Reward
+  - AUTODETECT: Towards a Unified Framework for Automated Weakness Detection in Large Language Models
+  - META-REWARDING LANGUAGE MODELS: Self-Improving Alignment with LLM-as-a-Meta-Judge
+  - HELPSTEER: Multi-attribute Helpfulness Dataset for STEERLM
+  - Recursive Introspection: Teaching Language Model Agents How to Self-Improve
+  - Enhancing Multi-Step Reasoning Abilities of Language Models through Direct Q-Function Optimization
+  - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
+  - GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
+  - REFT: Reasoning with REinforced Fine-Tuning
+  - SCPO：SELF-CONSISTENCY PREFERENCE OPTIMIZATION
+  - MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking
+  - Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning
+- RL探究
+  - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
+  - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
+  - THE TRICKLE-DOWN IMPACT OF REWARD (IN-)CONSISTENCY ON RLHF
+  - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
+  - HUMAN FEEDBACK IS NOT GOLD STANDARD
+  - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
+  - Language Models Resist Alignment
+  - Towards a Unified View of Preference Learning for Large Language Models: A Survey
+
+
+### Post Train（和COT，RL有交集）
+- Inference Scaling
+  - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
+  - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
+  - Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
+  - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters   :star:
+  - Q*: Improving Multi-step Reasoning for LLMs with Deliberative Planning
+  - Planning In Natural Language Improves LLM Search For Code Generation
+  - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
+  - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
+  - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
+  - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
+  - Inference Scaling for Long-Context Retrieval Augmented Generation
+  - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
+  - InfAlign: Inference-aware language model alignment
+  - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
+  - What type of inference is planning?
+  - Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving
+- slow thinking COT
+  - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
+  - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
+  - A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
+  - Imitate, Explore, and Self-Improve: A Reproduction Report on Slow-thinking Reasoning Systems
+  - Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces
+  - Training Large Language Models to Reason in a Continuous Latent Space
+  - Beyond A∗ : Better Planning with Transformers via Search Dynamics Bootstrapping
+  - o1-Coder: an o1 Replication for Coding
+  - Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective
+  - Sky-T1: Train your own O1 preview model within $450
+  - Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought
+  - rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking :star:
+  - Demystifying Long Chain-of-Thought Reasoning in LLMs
+  - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
+  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
+  - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
+  - Training Language Models to Reason Efficiently
+  - s1: Simple test-time scaling
+  - Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking
+- O3 Related
+  - Competitive Programming with Large Reasoning Models
+- Memorize at Test Time
+  - Titans: Learning to Memorize at Test Time
+  - Learning to Reason from Feedback at Test-Time
+- RL COT原理
+  - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
+  - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
+  - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
+  - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
+- R1 Reprodce
+  - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
+  - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
+  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -223,6 +398,10 @@
   - Improving Text Embeddings with Large Language Models
   - MAGPIE: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
   - Scaling Synthetic Data Creation with 1,000,000,000 Personas
+  - UNLEASHING REASONING CAPABILITY OF LLMS VIA SCALABLE QUESTION SYNTHESIS FROM SCRATCH
+  - A Survey on Data Synthesis and Augmentation for Large Language Models
+  - AgentInstruct: Toward Generative Teaching with Agentic Flows
+  - Unveiling the Flaws: Exploring Imperfections in Synthetic Data and Mitigation Strategies for Large Language Models
 - 如何降低通用能力损失
   - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
   - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
@@ -240,186 +419,9 @@
    - PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts
    - ROLELLM: BENCHMARKING, ELICITING, AND ENHANCING ROLE-PLAYING ABILITIES OF LARGE LANGUAGE MODELS
 
-### 对话模型
-- LaMDA: Language Models for Dialog Applications
-- Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
-- BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
-- How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
-- DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
-- Enhancing Chat Language Models by Scaling High-quality Instructional Conversations
-- DiagGPT: An LLM-based Chatbot with Automatic Topic Management for Task-Oriented Dialogue
-
-### 思维链 (prompt_chain_of_thought)
-- 基础&进阶用法
-    - 【zero-shot-COT】 Large Language Models are Zero-Shot Reasoners :star:
-    - 【few-shot COT】 Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
-    - 【SELF-CONSISTENCY 】IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
-    - 【LEAST-TO-MOST】 PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS :star:
-    - 【TOT】Tree of Thoughts: Deliberate Problem Solving with Large Language Models :star:
-    - 【Plan-and-Solve】 Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
-    - 【Verify-and-Edit】: A Knowledge-Enhanced Chain-of-Thought Framework
-    - 【GOT】Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
-    - 【TOMT】Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning
-    - 【LAMBADA】: Backward Chaining for Automated Reasoning in Natural Language
-    - 【AOT】Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models :star:
-    - 【GOT】Graph of Thoughts: Solving Elaborate Problems with Large Language Models :star:
-    - 【PHP】Progressive-Hint Prompting Improves Reasoning in Large Language Models
-    - 【HtT】LARGE LANGUAGE MODELS CAN LEARN RULES :star:
-    - 【DIVSE】DIVERSITY OF THOUGHT IMPROVES REASONING ABILITIES OF LARGE LANGUAGE MODELS
-    - 【CogTree】From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
-    - 【Step-Back】Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models :star:
-    - 【OPRO】LARGE LANGUAGE MODELS AS OPTIMIZERS :star:
-    - 【BOT】Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
-    - Abstraction-of-Thought Makes Language Models Better Reasoners
-    - 【SymbCoT】Faithful Logical Reasoning via Symbolic Chain-of-Thought
-    - 【XOT】EVERYTHING OF THOUGHTS : DEFYING THE LAW OF PENROSE TRIANGLE FOR THOUGHT GENERATION
-    - 【IoT】Iteration of Thought: Leveraging Inner Dialogue for Autonomous Large Language Model Reasoning
-    - 【DOT】On the Diagram of Thought
-- 非传统COT问题分解方向
-    - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
-    - Successive Prompting for Decomposing Complex Questions
-- 分领域COT [Math, Code, Tabular, QA]
-    - Solving Quantitative Reasoning Problems with Language Models
-    - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
-    - Solving math word problems with processand outcome-based feedback
-    - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
-    - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
-    - LEARNING PERFORMANCE-IMPROVING CODE EDITS
-    - Chain of Code: Reasoning with a Language Model-Augmented Code Emulator
-- 原理分析
-    - Chain of Thought Empowers Transformers to Solve Inherently Serial Problems :star:
-    - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters  :star:
-    - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
-    - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
-    - Large Language Models Can Be Easily Distracted by Irrelevant Context
-    - Chain-of-Thought Reasoning Without Prompting
-    - Inductive or Deductive? Rethinking the Fundamental Reasoning Abilities of LLMs
-    - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
-    - To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning :star:
-- 小模型COT蒸馏
-    - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
-    - Teaching Small Language Models to Reason 
-    - Large Language Models are Reasoning Teachers
-    - Distilling Reasoning Capabilities into Smaller Language Models
-    - The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning
-    - Distilling System 2 into System 1
-- COT样本自动构建/选择
-    - AutoCOT：AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
-    - Active Prompting with Chain-of-Thought for Large Language Models
-    - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
-- COT能力学习
-   - Large Language Models Can Self-Improve
-   - Training Chain-of-Thought via Latent-Variable Inference
-   - Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking
-   - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning 
-   - V-STaR: Training Verifiers for Self-Taught Reasoners
-   - THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS
-   - SELF-DIRECTED SYNTHETIC DIALOGUES AND REVISIONS TECHNICAL REPORT
-- others
-    - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
-    - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
-    - Large Language Models are Better Reasoners with Self-Verification
-    - ThoughtSource A central hub for large language model reasoning data
-    - Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs
-
-### RLHF
-- Deepmind
-  - Teaching language models to support answers with verified quotes
-  - sparrow, Improving alignment of dialogue agents via targetd human judgements :star:
-  - STATISTICAL REJECTION SAMPLING IMPROVES PREFERENCE OPTIMIZATION
-  - Reinforced Self-Training (ReST) for Language Modeling
-  - SLiC-HF: Sequence Likelihood Calibration with Human Feedback
-  - CALIBRATING SEQUENCE LIKELIHOOD IMPROVES CONDITIONAL LANGUAGE GENERATION
-  - REWARD DESIGN WITH LANGUAGE MODELS
-  - Final-Answer RL Solving math word problems with processand outcome-based feedback
-  - Solving math word problems with process- and outcome-based feedback
-  - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
-  - BOND: Aligning LLMs with Best-of-N Distillation
-  - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
-  - Generative Verifiers: Reward Modeling as Next-Token Prediction
-  - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
-- openai
-  - PPO: Proximal Policy Optimization Algorithms :star:
-  - Deep Reinforcement Learning for Human Preference
-  - Fine-Tuning Language Models from Human Preferences
-  - learning to summarize from human feedback
-  - InstructGPT: Training language models to follow instructions with human feedback :star:
-  - Scaling Laws for Reward Model Over optimization :star:
-  - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
-  - PRM：Let's verify step by step  :star:
-  - Training Verifiers to Solve Math Word Problems [PRM的前置依赖]
-  - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
-  - LLM Critics Help Catch LLM Bugs :star:
-  - PROVER-VERIFIER GAMES IMPROVE LEGIBILITY OF LLM OUTPUTS
-  - Rule Based Rewards for Language Model Safety
-  - Self-critiquing models for assisting human evaluators
-- Anthropic
-  - A General Language Assistant as a Laboratory for Alignmen 
-  - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
-  - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback  :star:
-  - Constitutional AI Harmlessness from AI Feedback :star:
-  - Pretraining Language Models with Human Preferences
-  - The Capacity for Moral Self-Correction in Large Language Models
-  - Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Trainin
-- AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
-- 改良方案 
-  - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
-  - Chain of Hindsight Aligns Language Models with Feedback
-  - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
-  - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
-  - RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback
-  - Training Socially Aligned Language Models in Simulated Human Society
-  - RAIN: Your Language Models Can Align Themselves without Finetuning
-  - Generative Judge for Evaluating Alignment
-  - PEERING THROUGH PREFERENCES: UNRAVELING FEEDBACK ACQUISITION FOR ALIGNING LARGE LANGUAGE MODELS
-  - SALMON: SELF-ALIGNMENT WITH PRINCIPLE-FOLLOWING REWARD MODELS
-  - Large Language Model Unlearning :star:
-  - ADVERSARIAL PREFERENCE OPTIMIZATION :star:
-  - Preference Ranking Optimization for Human Alignment
-  - A Long Way to Go: Investigating Length Correlations in RLHF
-  - ENABLE LANGUAGE MODELS TO IMPLICITLY LEARN SELF-IMPROVEMENT FROM DATA
-  - REWARD MODEL ENSEMBLES HELP MITIGATE OVEROPTIMIZATION
-  - LEARNING OPTIMAL ADVANTAGE FROM PREFERENCES AND MISTAKING IT FOR REWARD
-  - ULTRAFEEDBACK: BOOSTING LANGUAGE MODELS WITH HIGH-QUALITY FEEDBACK
-  - MOTIF: INTRINSIC MOTIVATION FROM ARTIFICIAL INTELLIGENCE FEEDBACK
-  - STABILIZING RLHF THROUGH ADVANTAGE MODEL AND SELECTIVE REHEARSAL
-  - Shepherd: A Critic for Language Model Generation
-  - LEARNING TO GENERATE BETTER THAN YOUR LLM
-  - Fine-Grained Human Feedback Gives Better Rewards for Language Model Training
-  - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
-  - Direct Preference Optimization: Your Language Model is Secretly a Reward Model
-  - HIR The Wisdom of Hindsight Makes Language Models Better Instruction Followers
-  - Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction
-  - A Minimaximalist Approach to Reinforcement Learning from Human Feedback
-  - PANDA: Preference Adaptation for Enhancing Domain-Specific Abilities of LLMs
-  - Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models
-  - Weak-to-Strong Extrapolation Expedites Alignment
-  - Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study
-  - Token-level Direct Preference Optimization
-  - SimPO: Simple Preference Optimization with a Reference-Free Reward
-  - AUTODETECT: Towards a Unified Framework for Automated Weakness Detection in Large Language Models
-  - META-REWARDING LANGUAGE MODELS: Self-Improving Alignment with LLM-as-a-Meta-Judge
-  - HELPSTEER: Multi-attribute Helpfulness Dataset for STEERLM
-  - Recursive Introspection: Teaching Language Model Agents How to Self-Improve
-- RL探究
-  - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
-  - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
-  - THE TRICKLE-DOWN IMPACT OF REWARD (IN-)CONSISTENCY ON RLHF
-  - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
-  - HUMAN FEEDBACK IS NOT GOLD STANDARD
-  - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
-  - Language Models Resist Alignment
-- Inference Scaling
-  - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
-  - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
-  - Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
-  - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters   :star:
-  - Q*: Improving Multi-step Reasoning for LLMs with Deliberative Planning
-  - Planning In Natural Language Improves LLM Search For Code Generation
-  - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
-  - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
-
+  
 ### LLM Agent 让模型使用工具 (llm_agent)
+- AGENT AI: SURVEYING THE HORIZONS OF MULTIMODAL INTERACTION
 - A Survey on Large Language Model based Autonomous Agents
 - PERSONAL LLM AGENTS: INSIGHTS AND SURVEY ABOUT THE CAPABILITY, EFFICIENCY AND SECURITY
 - 基于prompt通用方案
@@ -463,6 +465,7 @@
   - Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models
   - AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning
   - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
+  - ToolGen: Unified Tool Retrieval and Calling via Generation
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -481,7 +484,7 @@
     - FinGPT: Open-Source Financial Large Language Models
     - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
     - AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
-    - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist :star:
+    - FinAgent： A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist :star:
     - Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in stock Selection 
     - ENHANCING ANOMALY DETECTION IN FINANCIAL MARKETS WITH AN LLM-BASED MULTI-AGENT FRAMEWORK
     - TRADINGGPT: MULTI-AGENT SYSTEM WITH LAYERED MEMORY AND DISTINCT CHARACTERS FOR ENHANCED FINANCIAL TRADING PERFORMANCE
@@ -489,12 +492,24 @@
     - LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction
     - Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment
     - Advancing Anomaly Detection: Non-Semantic Financial Data Encoding with LLMs
+    - TradExpert: Revolutionizing Trading with Mixture of Expert LLMs
+    - FinVision: A Multi-Agent Framework for Stock Market Prediction
+    - AI in Investment Analysis: LLMs for Equity Stock Ratings
+    - AAPM: Large Language Model Agent-based Asset Pricing Models
+    - FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making
+    - TradingAgents: Multi-Agents LLM Financial Trading Framework
+    - Pretrained LLM Adapted with LoRA as a Decision Transformer for Offline RL in Quantitative Trading
+    - FinRL-DeepSeek: LLM-Infused Risk-Sensitive Reinforcement Learning for Trading Agents
+    - FinSphere: A Conversational Stock Analysis Agent Equipped with Quantitative Tools based on Real-Time Database
+    - FLAG-Trader: Fusion LLM-Agent with Gradient-based Reinforcement Learning for Financial Trading
+    - Ploutos: Towards interpretable stock movement prediction with financial large language model
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
     - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
     - Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents
     - Integrating Chemistry Knowledge in Large Language Models via Prompt Engineering
+    - CHEMAGENT: SELF-UPDATING LIBRARY IN LARGE LANGUAGE MODELS IMPROVES CHEMICAL REASONING
   - web/mobile Agent
     - AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent
     - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
@@ -507,11 +522,19 @@
     - CogAgent: A Visual Language Model for GUI Agents
     - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
     - WebCanvas: Benchmarking Web Agents in Online Environments
+    - The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
+    - UI-TARS: Pioneering Automated GUI Interaction with Native Agents
+    - Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
-  - 其他
+  - Research Agent
+    - PaSa: An LLM Agent for Comprehensive Academic Paper Search
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
+    - Agent Laboratory: Using LLM Agents as Research Assistants
+    - Automated Hypothesis Validation with Agentic Sequential Falsifications
+    - Towards an AI co-scientist
+  - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
     - PointLLM: Empowering Large Language Models to Understand Point Clouds
@@ -526,6 +549,7 @@
   - Automatic Evaluation of Attribution by Large Language Models
   - Benchmarking Large Language Models in Retrieval-Augmented Generation
   - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems
+  - Agent-as-a-Judge: Evaluate Agents with Agents
 - MultiAgent
    - GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
@@ -535,10 +559,14 @@
   - Generative Agents: Interactive Simulacra of Human Behavior  :star:
   - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents 
   - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
+  - Agents Thinking Fast and Slow:A Talker-Reasoner Architecture
+  - Generative Agent Simulations of 1,000 People
+  - Advanced Reasoning and Learning for Autonomous AI Agents
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
-  - 任务型智能体协作
+    - Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks 
+ - 任务型智能体协作
     - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE
     - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
     - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
@@ -567,6 +595,11 @@
   - A Survey on Self-Evolution of Large Language Models
   - ExpeL: LLM Agents Are Experiential Learners
   - ReAct Meets ActRe: When Language Agents Enjoy Training Data Autonomy
+  - PROACTIVE AGENT: SHIFTING LLM AGENTS FROM REACTIVE RESPONSES TO ACTIVE ASSISTANCE
+  - From Novice to Expert: LLM Agent Policy Optimization via Step-wise Reinforcement Learning
+  - AGILE: A Novel Reinforcement Learning Framework of LLM Agents
+  - Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
+  - ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -576,54 +609,53 @@
 
 
 ### RAG
-- WebGPT：Browser-assisted question-answering with human feedback 
-- WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
-- WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
-- REPLUG: Retrieval-Augmented Black-Box Language Models :star:
-- RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
-- Atlas: Few-shot Learning with Retrieval Augmented Language Models
-- RRAML: Reinforced Retrieval Augmented Machine Learning
-- Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
-- PDFTriage: Question Answering over Long, Structured Documents
-- Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
-- Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
-- Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive  Tasks
-- Active Retrieval Augmented Generation
-- kNN-LM Does Not Improve Open-ended Text Generation
-- Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
-- RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
-- Augmented Embeddings for Custom Retrievals
-- DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
-- Learning to Filter Context for Retrieval-Augmented Generation
-- THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
-- RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
-- Query Expansion by Prompting Large Language Models  :star:
-- CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
-- IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
-- T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
-- Factuality Enhanced Language Models for Open-Ended Text Generation
-- FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
-- KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
-- Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
-- Complex Claim Verification with Evidence Retrieved in the Wild
-- Retrieval-Augmented Generation for Large Language Models: A Survey
-- Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
-- ChatQA: Building GPT-4 Level Conversational QA Models
-- RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
-- Benchmarking Large Language Models in Retrieval-Augmented Generation
-- SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
-- T-RAG: Lessons from the LLM Trenches
-- RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
-- ARAGOG: Advanced RAG Output Grading
-- ActiveRAG: Revealing the Treasures of Knowledge via Active Learning
-- RAFT: Adapting Language Model to Domain Specific RAG
-- OpenResearcher: Unleashing AI for Accelerated Scientific Research
+- 经典论文
+  - WebGPT：Browser-assisted question-answering with human feedback 
+  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
+  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
+  - REPLUG: Retrieval-Augmented Black-Box Language Models :star:
+  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
+  - Atlas: Few-shot Learning with Retrieval Augmented Language Models
+  - RRAML: Reinforced Retrieval Augmented Machine Learning
+  - FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
+- 微调
+  - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
+  - RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
+  - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
+  - RAFT: Adapting Language Model to Domain Specific RAG
+  - Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
+- 其他论文
+  - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
+  - PDFTriage: Question Answering over Long, Structured Documents
+  - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
+  - Active Retrieval Augmented Generation
+  - kNN-LM Does Not Improve Open-ended Text Generation
+  - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
+  - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
+  - Factuality Enhanced Language Models for Open-Ended Text Generation  
+  - KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
+  - Complex Claim Verification with Evidence Retrieved in the Wild
+  - Retrieval-Augmented Generation for Large Language Models: A Survey
+  - ChatQA: Building GPT-4 Level Conversational QA Models
+  - RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
+  - Benchmarking Large Language Models in Retrieval-Augmented Generation
+  - T-RAG: Lessons from the LLM Trenches
+  - ARAGOG: Advanced RAG Output Grading
+  - ActiveRAG: Revealing the Treasures of Knowledge via Active Learning
+  - OpenResearcher: Unleashing AI for Accelerated Scientific Research
+  - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
+  - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
+  - Memory3 : Language Modeling with Explicit Memory
 - 优化检索
+  - IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
   - HyDE：Precise Zero-Shot Dense Retrieval without Relevance Labels
   - PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - Query2doc: Query Expansion with Large Language Models  :star:
+  - Query Expansion by Prompting Large Language Models  :star:
   - [Anthropic Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
+  - Multi-Level Querying using A Knowledge Pyramid
+  - A Survey of Query Optimization in Large Language Models
 - Ranking
   - A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models
   - RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models
@@ -633,20 +665,20 @@
   - Ranking Manipulation for Conversational Search Engines
   - Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents
   - Opensource Large Language Models are Strong Zero-shot Query Likelihood Models for Document Ranking
+  - T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
+  - Learning to Filter Context for Retrieval-Augmented Generation
 - 传统搜索方案
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING
   - Query Expansion Techniques for Information Retrieval a Survey
   - Learning to Rewrite Queries 
   - Managing Diversity in Airbnb Search
 - 新向量模型用于Recall和Ranking
+  - Augmented Embeddings for Custom Retrievals
   - BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
   - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
   - Piccolo2: General Text Embedding with Multi-task Hybrid Loss Training
-- [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
-- Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
-- Memory3 : Language Modeling with Explicit Memory
 - 优化推理结果
   - Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
 - 动态RAG（When to Search & Search Plan）
@@ -659,12 +691,64 @@
   - When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
   - PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers
   - ONEGEN: EFFICIENT ONE-PASS UNIFIED GENERATION AND RETRIEVAL FOR LLMS
+  - Probing-RAG: Self-Probing to Guide Language Models in Selective Document Retrieval
 - Graph RAG 
   - GRAPH Retrieval-Augmented Generation: A Survey
   - From Local to Global: A Graph RAG Approach to Query-Focused Summarization
   - GRAG: Graph Retrieval-Augmented Generation
   - GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning 
   - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASONING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
+  - LightRAG: Simple and Fast Retrieval-Augmented Generation
+  - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
+  - StructRAG: Boosting Knowledge Intensive Reasoning of LLMs via Inference-time Hybrid Information Structurization
+- Multistep RAG
+  - SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
+  - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions
+  - Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
+  - RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
+  - IM-RAG: Multi-Round Retrieval-Augmented Generation Through Learning Inner Monologues
+  - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
+  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive  Tasks
+  - MindSearch 思·索: Mimicking Human Minds Elicits Deep AI Searcher
+  - RQ-RAG: LEARNING TO REFINE QUERIES FOR RETRIEVAL AUGMENTED GENERATION
+  - AutoPRM: Automating Procedural Supervision for Multi-Step Reasoning via Controllable Question Decomposition
+- Timeline RAG 
+  - Unfolding the Headline: Iterative Self-Questioning for News Retrieval and Timeline Summarization
+- fast rag
+  - MINIRAG: TOWARDS EXTREMELY SIMPLE RETRIEVAL-AUGMENTED GENERATION
+  - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
+
+### Other Prompt Engineer(prompt_engineer) 
+- Calibrate Before Use: Improving Few-Shot Performance of Language Models
+- In-Context Instruction Learning
+- LEARNING PERFORMANCE-IMPROVING CODE EDITS
+- Boosting Theory-of-Mind Performance in Large Language Models via Prompting
+- Generated Knowledge Prompting for Commonsense Reasoning
+- RECITATION-AUGMENTED LANGUAGE MODELS
+- kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
+- EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
+- Causality-aware Concept Extraction based on Knowledge-guided Prompting
+- LARGE LANGUAGE MODELS AS OPTIMIZERS
+- Prompts As Programs: A Structure-Aware Approach to Efficient Compile-Time Prompt Optimization
+- Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
+- RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions
+- MedPrompt: Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+- DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines
+- Prompts as Auto-Optimized Training Hyperparameters: Training Best-in-Class IR Models from Scratch with 10 Gold Labels
+- In-Context Learning for Extreme Multi-Label Classification
+- Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
+- DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
+- CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
+- TextGrad: Automatic "Differentiation" via Text
+- Task Facet Learning: A Structured Approach to Prompt Optimization
+- LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
+- PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
+- Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
+- From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice
+- Does Prompt Formatting Have Any Impact on LLM Performance?
+- AUTO-DEMO PROMPTING: LEVERAGING GENERATED OUTPUTS AS DEMONSTRATIONS FOR ENHANCED BATCH PROMPTING
+- PROMPTBREEDER: SELF-REFERENTIAL SELF-IMPROVEMENT VIA PROMPT EVOLUTION
+
 
 ### 大模型图表理解和生成
 - survey
@@ -733,6 +817,7 @@
 - Data, Data Everywhere: A Guide for Pretraining Dataset Construction
 - Data curation via joint example selection further accelerates multimodal learning
 - IMPROVING PRETRAINING DATA USING PERPLEXITY CORRELATIONS
+- AI models collapse when trained on recursively generated data
 
 ### 领域模型SFT(domain_llms)
 - 金融
@@ -791,6 +876,7 @@
   - YaRN: Efficient Context Window Extension of Large Language Models
   - LM-INFINITE: SIMPLE ON-THE-FLY LENGTH GENERALIZATION FOR LARGE LANGUAGE MODELS
   - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
+  - Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention
 - 上文压缩排序方案
   - Lost in the Middle: How Language Models Use Long Contexts :star:
   - LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
@@ -821,6 +907,8 @@
   - HyperAttention: Long-context Attention in Near-Linear Time
   - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
   - With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation
+- 评估
+  - NOLIMA: Long-Context Evaluation Beyond Literal Matching
 
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
@@ -828,6 +916,7 @@
 - DOC: Improving Long Story Coherence With Detailed Outline Control
 - Weaver: Foundation Models for Creative Writing
 - Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models
+- Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations
 
 ### NL2SQL
 - 大模型方案
@@ -910,6 +999,8 @@
   - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
   - Woodpecker: Hallucination Correction for Multimodal Large Language Models 
   - Zero-shot Faithful Factual Error Correction
+  - LARGE LANGUAGE MODELS CANNOT SELF-CORRECT REASONING YET
+  - Training Language Models to Self-Correct via Reinforcement Learning
 
 ### 大模型评估（evaluation）
 - 事实性评估
@@ -934,6 +1025,10 @@
 - SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference
 - BatchPrompt: Accomplish more with less
 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
+- XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models
+- Precise Length Control in Large Language Models
+- Top-nσ: Not All Logits Are You Need
+- Prompt Cache: Modular Attention Reuse for Low-Latency Inference
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
@@ -944,7 +1039,6 @@
 - Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 - Automata-based constraints for language model decoding
 - SGLang: Efficient Execution of Structured Language Model Programs
-- PROMPT CACHE: MODULAR ATTENTION REUSE FOR LOW-LATENCY INFERENCE
 
 ### 模型合并和剪枝(model_merge)
 - Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
@@ -967,33 +1061,6 @@
 - Dense-to-Sparse Gate for Mixture-of-Experts
 - Efficient Large Scale Language Modeling with Mixtures of Experts
 
-### Other Prompt Engineer(prompt_engineer) 
-- Calibrate Before Use: Improving Few-Shot Performance of Language Models
-- In-Context Instruction Learning
-- LEARNING PERFORMANCE-IMPROVING CODE EDITS
-- Boosting Theory-of-Mind Performance in Large Language Models via Prompting
-- Generated Knowledge Prompting for Commonsense Reasoning
-- RECITATION-AUGMENTED LANGUAGE MODELS
-- kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
-- EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
-- Causality-aware Concept Extraction based on Knowledge-guided Prompting
-- LARGE LANGUAGE MODELS AS OPTIMIZERS
-- Prompts As Programs: A Structure-Aware Approach to Efficient Compile-Time Prompt Optimization
-- Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
-- RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions
-- MedPrompt: Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
-- DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines
-- Prompts as Auto-Optimized Training Hyperparameters: Training Best-in-Class IR Models from Scratch with 10 Gold Labels
-- In-Context Learning for Extreme Multi-Label Classification
-- Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
-- DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
-- CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
-- TextGrad: Automatic "Differentiation" via Text
-- Task Facet Learning: A Structured Approach to Prompt Optimization
-- LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
-- PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
-- Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
-
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
@@ -1015,6 +1082,97 @@
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
 - Many-Shot In-Context Learning in Multimodal Foundation Models
 - Adding Conditional Control to Text-to-Image Diffusion Models
+- Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
+- ShowUI: One Vision-Language-Action Model for GUI Visual Agent
+
+
+### 综述
+- A Survey of Large Language Models
+- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
+- Paradigm Shift in Natural Language Processing
+- Pre-Trained Models: Past, Present and Future
+- What Language Model Architecture and Pretraining objects work best for zero shot generalization  :star:
+- Towards Reasoning in Large Language Models: A Survey
+- Reasoning with Language Model Prompting: A Survey :star:
+- An Overview on Language Models: Recent Developments and Outlook  :star:
+- A Survey of Large Language Models[6.29更新版]
+- Unifying Large Language Models and Knowledge Graphs: A Roadmap
+- Augmented Language Models: a Survey :star:
+- Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
+- Challenges and Applications of Large Language Models
+- The Rise and Potential of Large Language Model Based Agents: A Survey
+- Large Language Models for Information Retrieval: A Survey
+- AI Alignment: A Comprehensive Survey
+- Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications
+- Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
+- A Survey on Language Models for Code
+- Model-as-a-Service (MaaS): A Survey
+
+### 大模型能力探究
+- In Context Learning 
+  - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
+  - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
+  - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
+  - Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
+  - Trained Transformers Learn Linear Models In-Context
+  - In-Context Learning Creates Task Vectors
+  - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
+- 涌现能力
+  - Sparks of Artificial General Intelligence: Early experiments with GPT-4
+  - Emerging Ability of Large Language Models :star:
+  - LANGUAGE MODELS REPRESENT SPACE AND TIME
+  - Are Emergent Abilities of Large Language Models a Mirage?
+- 能力评估
+  - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
+  - Can Large Language Models Infer Causation from Correlation?
+  - Holistic Evaluation of Language Model
+  - Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
+  - Theory of Mind May Have Spontaneously Emerged in Large Language Models
+  - Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
+  - Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
+  - Demystifying GPT Self-Repair for Code Generation
+  - Evidence of Meaning in Language Models Trained on Programs
+  - Can Explanations Be Useful for Calibrating Black Box Models
+  - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective 
+  - Language acquisition: do children and language models follow similar learning stages?
+  - Language is primarily a tool for communication rather than thought
+- 领域能力
+  - Capabilities of GPT-4 on Medical Challenge Problems
+  - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+- Understanding LLM Embeddings for Regression
+
+
+### Prompt Tunning范式
+- Tunning Free Prompt
+  - GPT2: Language Models are Unsupervised Multitask Learners
+  - GPT3: Language Models are Few-Shot Learners   :star:
+  - LAMA: Language Models as Knowledge Bases?
+  - AutoPrompt: Eliciting Knowledge from Language Models
+- Fix-Prompt LM Tunning
+  - T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+  - PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference  :star:
+  - PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
+  - GenPET: Few-Shot Text Generation with Natural Language Instructions
+  - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners  :star:
+  - ADEPT: Improving and Simplifying Pattern Exploiting Training
+- Fix-LM Prompt Tunning 
+  - Prefix-tuning: Optimizing continuous prompts for generation  
+  - Prompt-tunning: The power of scale for parameter-efficient prompt tuning :star:
+  - P-tunning: GPT Understands Too :star:
+  - WARP: Word-level Adversarial ReProgramming
+- LM + Prompt Tunning 
+  - P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
+  - PTR: Prompt Tuning with Rules for Text Classification
+  - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
+- Fix-LM Adapter Tunning
+  - LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS :star:
+  - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
+  - Parameter-Efficient Transfer Learning for NLP
+  - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
+  - DoRA: Weight-Decomposed Low-Rank Adaptation
+-  Representation Tuning
+  - ReFT: Representation Finetuning for Language Models
+
 
 ### Timeseries LLM
 - TimeGPT-1
@@ -1036,6 +1194,17 @@
 - Curiosity-driven Red-teaming for Large Language Models
 - Red Teaming Language Models with Language Models
 - EXPLORE, ESTABLISH, EXPLOIT: RED-TEAMING LANGUAGE MODELS FROM SCRATCH
+
+
+### 对话模型
+- LaMDA: Language Models for Dialog Applications
+- Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
+- BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
+- How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
+- DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
+- Enhancing Chat Language Models by Scaling High-quality Instructional Conversations
+- DiagGPT: An LLM-based Chatbot with Automatic Topic Management for Task-Oriented Dialogue
+
 
 ### Others
 - Pretraining on the Test Set Is All You Need 哈哈作者你是懂讽刺文学的
