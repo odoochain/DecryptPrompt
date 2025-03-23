@@ -127,6 +127,7 @@
 - [OpenBB](https://docs.openbb.co/terminal): 开源金融投资框架，[OpenBB+LLamaIndex](https://openbb.co/blog/breaking-barriers-with-openbb-and-llamaIndex?utm_source=talkingdev.uwl.me)主要是大模型+API的使用方案，通过自然语言进行金融数据查询，分析和可视化
 
 ### 法律垂直场景
+- [Farui](https://tongyi.aliyun.com/farui): 通义法睿
 - [chatlaw](https://chatlaw.cloud/): 法律咨询助手
 - [casetext](https://casetext.com/): 海外的chatLaw
 - [MeCheck](https://powerlaw.ai/mecheck): 幂律智能的合同审查
