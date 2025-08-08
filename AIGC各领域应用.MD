@@ -1,3 +1,14 @@
+### 自主智能体的尝试
+- [How Claude 3.7 Plays Pokémon](https://www.latent.space/p/how-claude-plays-pokemon-was-made)
+
+### 自主智能体
+- [Genspark](https://www.genspark.ai/)： 毫无疑问第一梯队，表格智能体很惊艳
+- [天工Skywork](https://www.tiangong.cn/): 也更上了word、excel、ppt的多模态智能体
+- [MANUS](https://manus.im/): 引领最新UI设计的Autonomous Agent
+- [context.ai](https://www.context.ai/):哈和天工很像的国外智能体
+- [coze space](https://space.coze.cn/): 和各领域公司开始联合发力做一些垂直领域智能体
+- [flowith](https://flowith.io/):原来是做流程图式工作流的现在也开始卷超长无休止的自主智能体
+
 ### AI设备
 ### AI 手机			 
 - [Rabbit r1](https://www.rabbit.tech/newsroom/introducing-r1): webagent智能体推出设备级产品了，延时问题还是最大问题，支持的app也有限
@@ -5,29 +16,10 @@
 - [Olafriend](https://www.woshipm.com/evaluating/6134764.html): 大力台灯之后字节再入局硬件
 - [IFLYBUDS](https://www.iflybuds.com/v2/#/portal): 讯飞智能录音耳机
 
-### LLM免费应用
-|模型链接     | 模型描述    |
-| --- | --- |
-|[GROK3](https://x.com/i/grok)|Grok也升级支持Deep research了|
-|[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
-|[DeepSeek](https://chat.deepseek.com/sign_in)|深度求索（ 代码用它） |
-|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot（搜索用它） |
-|[通义千问](https://tongyi.aliyun.com/qianwen/)|阿里(奇奇怪怪的问题问它） |
-|[万知](https://www.wanzhi.com/)|YI模型基座的应用，支持OCR文档识别|
-|[跃问](https://stepchat.cn/chats/new)|阶跃星辰推出的同样擅长长文本的大模型|
-|[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
-|[文心一言](https://yiyan.baidu.com/welcome)|百度|
-|[百川](https://www.baichuan-ai.com/chat)|百川|
-|[ChatGLM](https://chatglm.cn/main/detail)|智谱轻言|
-|[360智脑](https://chat.360.com/?src=ai_360_com)|360 |
-|[悟空](https://wukong.com/tool)|字节跳动|
-|[元宝](https://yuanbao.tencent.com/chat/naQivTmsDa)|腾讯|
-
-### 研究智能
+### Deep Research
 > 这个领域其实很多都不算是研究智能，只能算是RAG的Agent版本，Deep Search而非Deep Research，需要大家仔细鉴别，个人体验Grok和Perplexity当前的版本都够不上研究级别
 - [Co-Scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/?utm_source=ai-bot.cn): Google推出的科研助手，多智能体编排给出周密假设检验
 - [DeepResearch](https://openai.com/index/introducing-deep-research/): OpenAi推出的Deep Research，以O1训练思维链的方式训练的Agent行为链，长异步工作流收集、鉴别信息
-- [MANUS](https://manus.im/): 胜在UI设计的Autonomous Agent
 - [Data Science Agent in Colab: The future of data analysis with Gemini](https://developers.googleblog.com/en/data-science-agent-in-colab-with-gemini/): Google Colab里面可以免费使用Datascientist Agent了，对数据分析比较初级的领域有一些挑战
 - [Harvey.ai](https://www.harvey.ai/products/assistant)			
 
@@ -47,12 +39,17 @@
 - [askaitools: AI产品搜索引擎](https://askaitools.ai/)
 
 ### 搜索
+#### 全新AI浏览器
+- [Fellou.ai](https://fellou.ai/):windows版本还没有得体验后再来补充了 
+- [Dia](https://www.diabrowser.com/): 全新设计基于AI的浏览器需要申请
+
 #### 全新搜索形态之AGI或许是个产品问题
 - [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
 - [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格
 																										- [SmartTrip](https://smartrip.ai/flowStart/fullchat): 旅行界的perplexity，哈哈虽然chat感觉有点垮但是产品做的很有意思
 - [Ottogrid](https://ottogrid.ai/):原来最早的Automous Agent现在转换来做智能表格了，非常适合信息收集、筛选、查找类任务。也可以和异步长工作流融合，个人感觉未来适合异步的产品形态的一种可能就是表格，模型自动收集信息并持续添加进表格，并根据用户需要对内容生成动态过滤，总结的column									 
 #### 通用搜索
+- [问小白](https://www.wenxiaobai.com/chat/tourist)
 - [Felo.ai](https://felo.ai/search): 拆分搜索源，支持小红书，X，Reddit独立搜索的
 - [MindSearch](https://github.com/InternLM/MindSearch): 通过动态构建图节点，实现更深更广的RAG
 - [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
@@ -85,6 +82,7 @@
 - [ChatInsight](https://www.chatinsight.ai/?ref=aitoolnet.com): 企业级文档管理，和基于文档的对话
 - [Afforai](https://afforai.com/app): 看到现在做的不错的个人知识管理和笔记文件，支持多文档对比，期待和zetro打通
 - [MAXKB](https://maxkb.cn/): 支持上传文件和爬取在线文件的RAG知识库本地安装
+- [Khoj](https://app.khoj.dev/agents):支持本地部署的知识管理问答工具
 ### ChatDoc
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
 - [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，需要科学上网，增加了表格类解析，支持选择区域的问答，在PDF识别上做的很厉害
@@ -142,8 +140,10 @@
 - [Weaver AI](https://www.aiwaves.cn/): 波形智能开发的内容创作app，支持多场景写作
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
+- [STORM](https://storm.genie.stanford.edu/): 其实已经用了蛮久一直忘记放上来，对比千篇一律的大纲写作，整个流程更human的长文本写作方案
 
 ### 金融垂直领域
+- [FinGenius](http://fingenius.cn/):多Agent金融博弈系统，模拟市场参与者，预测市场走势
 - [妙想金融](http://ai.eastmoney.com/chat): 东方财富推出的大模型应用
 - [支小助](https://zhu.alipay.com/fin-research/)：增加思维框架匹配的大模型思考问答
 - [通义点金](https://tongyi.aliyun.com/dianjin?spm=5176.28508143.J_XmGx2FZCDAeIy2ZCWL7sW.246.c9a8154aKQ0r96&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@999977._.RL_%E7%82%B9%E9%87%91-LOC_topbar~UND~product-OR_ser-V_3-RE_productNew-P0_0#/)：通义千文也推出了研报阅读和个股问答模块
