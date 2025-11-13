@@ -63,11 +63,16 @@
 - [解密prompt系列51. R1实验的一些细节讨论](https://cloud.tencent.com/developer/article/2506684)
 - [解密prompt系列52. 闲聊大模型还有什么值得探索的领域](https://cloud.tencent.com/developer/article/2510004)
 - [解密prompt系列53. 再谈大模型Memory](https://cloud.tencent.com/developer/article/2514545)
-- [解密prompt系列54.Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
-- [解密prompt系列55.Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
+- [解密prompt系列54. Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
+- [解密prompt系列55. Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
 - [解密prompt系列56. Agent context Engineering - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
 - [​解密prompt系列57. Agent Context Engineering - 多智能体代码剖析](https://cloud.tencent.com/developer/article/2541926)
 - [解密prompt系列58. MCP - 工具演变 & MCP基础](https://cloud.tencent.com/developer/article/2549927)
+- [解密prompt系列59. MCP实战：从Low-Level到FastMCP的搭建演进](https://cloud.tencent.com/developer/article/2554794)
+- [​解密prompt系列60. Agent实战：从0搭建Jupter数据分析智能体](https://cloud.tencent.com/developer/article/2563549)
+- [​解密prompt系列61. 手搓代码沙箱与FastAPI-MCP实战](https://cloud.tencent.com/developer/article/2570796)
+- [​解密prompt系列62. Agent Memory新视角 - MATTS&CFGM&MIRIX](https://cloud.tencent.com/developer/article/2577365)
+- [解密prompt系列63. Agent训练方案: RStar2 & Early Experience etc](https://cloud.tencent.com/developer/article/2581959)
 
 ## 论文汇总
 ### paper List
@@ -99,6 +104,8 @@
   - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
   - What type of inference is planning?
   - Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving
+  - PROVABLE SCALING LAWS OF FEATURE EMERGENCE FROM LEARNING DYNAMICS OF GROKKING
+  - Do Machine Learning Models Memorize or Generalize?
 - slow thinking COT
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
@@ -146,15 +153,35 @@
   - ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
   - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
   - WebThinker: Empowering Large Reasoning Models with Deep Research Capability
+  - Reinforcement Learning for Machine Learning Engineering Agents
+  - AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning
+  - rStar2-Agent: Agentic Reasoning Technical Report
+  - The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
+  - IN-THE-FLOW AGENTIC SYSTEM OPTIMIZATION FOR EFFECTIVE PLANNING AND TOOL USE
+  - Watch and Learn: Learning to Use Computers from Online Videos
+  - UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
+  - PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold
+  - DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
 - 经验学习
   - Welcome to the Era of Experience
+  - Agent Learning via Early Experience
 - RL 其他训练方式
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
+  - Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
+  - DiffusionNFT: Online Diffusion Reinforcement with Forward Process
+  - EVOLUTION STRATEGIES AT SCALE: LLM FINETUNING BEYOND REINFORCEMENT LEARNING
+  - Learning to Reason Across Parallel Samples for LLM Reasoning
+  - PARAM∆ FOR DIRECT WEIGHT MIXING: POST-TRAIN LARGE LANGUAGE MODEL AT ZERO COST 
+  - LaSeR: Reinforcement Learning with Last-Token Self-Rewarding
+- RL  Overview
+  - Reinforcement Learning: An Overview
+  - Towards a Unified View of Large Language Model Post-Training
+
 
 ### Context Engineer
 - A Survey of Context Engineering for Large Language Models
-
+- Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -186,6 +213,9 @@
 - Mixtral of Experts
 - DeepSeek_R1  :star:
 - KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
+- CWM: An Open-Weights LLM for Research on Code Generation with World Models
+- DeepSeek V3.2 Tech Report
+- Less is More: Recursive Reasoning with Tiny Networks
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
@@ -269,6 +299,7 @@
    - V-STaR: Training Verifiers for Self-Taught Reasoners
    - THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS
    - SELF-DIRECTED SYNTHETIC DIALOGUES AND REVISIONS TECHNICAL REPORT
+   - COT-SELF-INSTRUCT: BUILDING HIGH-QUALITY SYNTHETIC PROMPTS FOR REASONING AND NON-REASONING TASKS
 - others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
     - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
@@ -380,8 +411,6 @@
   - Language Models Resist Alignment
   - Towards a Unified View of Preference Learning for Large Language Models: A Survey
 
-
-
 ### Memory
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
 - A-MEM: Agentic Memory for LLM Agents
@@ -390,6 +419,21 @@
 - AGENT WORKFLOW MEMORY
 - KBLAM: KNOWLEDGE BASE AUGMENTED LANGUAGE MODEL
 - MIRIX: Multi-Agent Memory System for LLM-Based Agents
+- M3-Agent: Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory
+- MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations
+- Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning
+- Multiple Memory Systems for Enhancing the Long-term Memory of Agent
+- PerPilot: Personalizing VLM-based Mobile Agents via Memory and Exploration
+- Coarse-to-Fine Grounded Memory for LLM Agent Planning
+- Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory
+- Memp: Exploring Agent Procedural Memory
+- RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory
+- A-MEM: Agentic Memory for LLM Agents
+- MemoryBank: Enhancing Large Language Models with Long-Term Memory
+- Metacognitive Reuse: Turning Recurring LLM Reasoning Into Concise Behaviors
+- Cognitive Architectures for Language Agents
+- Reason ingBank: Scaling Agent Self-Evolving with Reasoning Memory
+- LIGHTMEM: LIGHTWEIGHT AND EFFICIENT MEMORY-AUGMENTED GENERATION
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -517,6 +561,8 @@
   - AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning
   - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
   - ToolGen: Unified Tool Retrieval and Calling via Generation
+  - Scaling Agents via Continual Pre-training
+  - LIMI: Less is More for Agency
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -530,6 +576,7 @@
     - TaskWeaver: A Code-First Agent Framework
     - Automated Social Science: Language Models as Scientist and Subjects
     - Data Interpreter: An LLM Agent For Data Science
+    - FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data
   - 金融
     - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
     - FinGPT: Open-Source Financial Large Language Models
@@ -559,6 +606,7 @@
     - CausalStock: Deep End-to-end Causal Discovery for News-driven Stock Movement Prediction
     - Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?
     - Advancing Financial Engineering with Foundation Models: Progress, Applications, and Challenges
+    - AlphaAgents: Large Language Model based Multi-Agents for Equity Portfolio Constructions
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -582,6 +630,8 @@
     - UI-TARS: Pioneering Automated GUI Interaction with Native Agents
     - Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web
     - WebSailor: Navigating Super-human Reasoning for Web Agent
+    - WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization
+    - WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
@@ -592,6 +642,9 @@
     - Automated Hypothesis Validation with Agentic Sequential Falsifications
     - Towards an AI co-scientist
     - AI4Research: A Survey of Artificial Intelligence for Scientific Research
+  - 设计
+    - PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs
+    - Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -621,6 +674,8 @@
   - Generative Agent Simulations of 1,000 People
   - Advanced Reasoning and Learning for Autonomous AI Agents
   - Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies
+  - Emergent Coordination in Multi-Agent Language Models
+  - TUMIX: Multi-Agent Test-Time Scaling with Tool-Use Mixture
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
@@ -664,12 +719,14 @@
   - TaskCraft: Automated Generation of Agentic Tasks
 - MCP
   - SCALEMCP: DYNAMIC AND AUTO-SYNCHRONIZING MODEL CONTEXT PROTOCOL TOOLS FOR LLM AGENTS
+  - LIVEMCP-101: STRESS TESTING AND DIAGNOSING MCP-ENABLED AGENTS ON CHALLENGING QUERIES
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
   - LLaMA Rider: Spurring Large Language Models to Explore the Open World
   - LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks
+  - Routine: A Structural Planning Framework for LLM Agent System in Enterprise
 - Custom Agent
   - Creating General User Models from Computer Use
 
@@ -783,6 +840,9 @@
 - fast rag
   - MINIRAG: TOWARDS EXTREMELY SIMPLE RETRIEVAL-AUGMENTED GENERATION
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
+- Deep Research
+  - Deep Researcher with Test-Time Diffusion
+
 
 ### Other Prompt Engineer(prompt_engineer) 
 - PDL: A Declarative Prompt Programming Language
@@ -817,7 +877,9 @@
 - Does Prompt Formatting Have Any Impact on LLM Performance?
 - AUTO-DEMO PROMPTING: LEVERAGING GENERATED OUTPUTS AS DEMONSTRATIONS FOR ENHANCED BATCH PROMPTING
 - PROMPTBREEDER: SELF-REFERENTIAL SELF-IMPROVEMENT VIA PROMPT EVOLUTION
-
+- Psychologically Enhanced AI Agents
+- Attentive Reasoning Queries: A Systematic Method for Optimizing Instruction-Following in Large Language Models
+- Deterministic AI Agent Personality Expression through Standard Psychological Diagnostics
 
 ### 大模型图表理解和生成
 - survey
@@ -972,6 +1034,7 @@
   - Make Your LLM Fully Utilize the Context
   - Untie the Knots: An Efficient Data Augmentation Strategy for Long-Context Pre-Training in Language Models
   - LIFT: Improving Long Context Understanding of Large Language Models through Long Input Fine-Tuning
+  - REFRAG: Rethinking RAG based Decoding
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
@@ -980,6 +1043,7 @@
   - With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation
 - 评估
   - NOLIMA: Long-Context Evaluation Beyond Literal Matching
+  - The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
 
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
@@ -1027,6 +1091,7 @@
   - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions
   - Calibrated Language Models Must Hallucinate
   - Why Does ChatGPT Fall Short in Providing Truthful Answers?
+  - Why Language Models Hallucinate
 - Prompt or Tunning
   - R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
   - PROMPTING GPT-3 TO BE RELIABLE
@@ -1090,6 +1155,13 @@
   - Rethinking Benchmark and Contamination for Language Models with Rephrased Samples
 - 通用评估
   - G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment
+- 工具调用评估
+  - ToolRM: Outcome Reward Models for Tool-Calling Large Language Models
+- Agent 评估
+  - SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?
+  - ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering
+  - FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning
+  - Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First
 
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
@@ -1159,6 +1231,7 @@
   - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
   - Large OCR Model:An Empirical Study of Scaling Law for OCR
   - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
+  - DeepSeek-OCR: Contexts Optical Compression
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
 - Many-Shot In-Context Learning in Multimodal Foundation Models
 - Adding Conditional Control to Text-to-Image Diffusion Models
@@ -1197,6 +1270,9 @@
   - Trained Transformers Learn Linear Models In-Context
   - In-Context Learning Creates Task Vectors
   - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
+  - Learning without training: The implicit dynamics of in-context learning
+  - LANGUAGE MODELS ARE INJECTIVE AND HENCE INVERTIBLE
+
 - 涌现能力
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
@@ -1220,7 +1296,8 @@
   - Capabilities of GPT-4 on Medical Challenge Problems
   - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 - Understanding LLM Embeddings for Regression
-
+- Persona Vectors: Monitoring and Controlling Character Traits in Language Models
+- [When Models Manipulate Manifolds: The Geometry of a Counting Task](https://transformer-circuits.pub/2025/linebreaks/index.html)
 
 ### Prompt Tunning范式
 - Tunning Free Prompt
@@ -1291,4 +1368,4 @@
 - Learnware: Small Models Do Big
 - The economic potential of generative AI
 - A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
-
+- How People Use ChatGPT
