@@ -76,6 +76,13 @@
 - [解密Prompt系列64. Anthropic Skils的延伸思考](https://cloud.tencent.com/developer/article/2586667)
 - [解密Prompt系列65. 三巨头关于大模型内景的硬核论文](https://cloud.tencent.com/developer/article/2594738) 
 - [解密Prompt系列66. 视觉Token爆炸→DeepSeek-OCR光学压缩](https://cloud.tencent.com/developer/article/2600104)
+- [解密Prompt系列67. 智能体的经济学：从架构选型到工具预算](https://cloud.tencent.com/developer/article/2610869)
+- [解密Prompt系列68. 告别逐词蹦字 - Transformer 的新推理范式](https://cloud.tencent.com/developer/article/2616180)
+
+## 和AI一起搞事情
+- [和AI一起搞事情#1: opencode ×browser-use实战复盘](https://cloud.tencent.com/developer/user/6190096)
+- [和AI一起搞事情#2：边剥龙虾&边做个中医方剂技能](https://cloud.tencent.com/developer/article/2642702)
+- [和AI一起搞事情#3：Claude Teammate 开发中医游戏翻车了](https://cloud.tencent.com/developer/article/2650411)
 
 ## 论文汇总
 ### paper List
@@ -88,6 +95,12 @@
 - https://github.com/khuangaf/Awesome-Chart-Understanding
 - https://github.com/srush/awesome-o1/?tab=readme-ov-file
 
+### 图像生成
+- Neural Discrete Representation Learning
+- Denoising Diffusion Probabilistic Models
+- Scalable Diffusion Models with Transformers
+- Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+- High-Resolution Image Synthesis with Latent Diffusion Models
 
 ### Post Train（和COT，RL有交集）
 - Inference Scaling
@@ -138,6 +151,7 @@
   - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
   - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
   - Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
+  - Think Deep, Not Just Long:Measuring LLM Reasoning Effort via Deep-Thinking Tokens
 - R1 Reprodce
   - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
@@ -163,6 +177,8 @@
   - PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold
   - DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
   - Thinking with Programming Vision: Towards a Unified View for Thinking with Images
+  - Scaling Agent Learning via Experience Synthesis
+  - CaveAgent: Transforming LLMs into Stateful Runtime Operators
 - 经验学习
   - Welcome to the Era of Experience
   - Agent Learning via Early Experience
@@ -188,6 +204,12 @@
 - Scaling Long-Horizon LLM Agent via Context-Folding
 - Towards a Science of Scaling Agent Systems
 - Budget-Aware Tool-Use Enables Effective Agent Scaling
+- Context Engineering 2.0
+- End-to-End Test-Time Training for Long Context
+- Single-Agent LLMs Outperform Multi-Agent Systems on Multi-Hop Reasoning Under Equal Thinking Token Budgets
+- Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned
+- Meta-Harness End-to-End Optimization of Model Harnesses
+- The-Complete-Guide-to-Building-Skill-for-Claude
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
@@ -229,7 +251,7 @@
 - CWM: An Open-Weights LLM for Research on Code Generation with World Models
 - DeepSeek V3.2 Tech Report
 - DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models
-
+- 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
     - 【zero-shot-COT】 Large Language Models are Zero-Shot Reasoners :star:
@@ -454,6 +476,8 @@
 - Learning to Reason from Feedback at Test-Time
 - Deep Researcher with Test-Time Diffusion
 - It’s All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization
+- Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents
+- MEMRL: SELF-EVOLVING AGENTS VIA RUNTIME REINFORCEMENT LEARNING ON EPISODIC MEMORY
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -689,6 +713,7 @@
   - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems
   - Agent-as-a-Judge: Evaluate Agents with Agents
 - MultiAgent
+  - An Empirical Study of Agent Developer Practices in AI Agent Frameworks
    - GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
@@ -1080,6 +1105,7 @@
   - The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
 - 原理分析
   - Retrieval Head Mechanistically Explains Long-Context Factuality
+
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
@@ -1100,6 +1126,7 @@
   - A comprehensive evaluation of ChatGPT’s zero-shot Text-to-SQL capability
   - Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
   - Tool-Assisted Agent on SQL Inspection and Refinement in Real-World Scenarios
+  - Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling
 - Domain Knowledge Intensive
   - Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge
   - Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion
