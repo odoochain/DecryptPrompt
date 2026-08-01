@@ -1,0 +1,91 @@
+1103969
+1103969|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_ability/Can Generalist Foundation Models Outcompete Special-Purpose Tuning Case Study in Medicine.pdf
+1103969|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_engineer/MedPrompt Can Generalist Foundation Models Outcompete Special-Purpose Tuning Case Study in Medicine.pdf
+1131982
+1131982|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/evaluation/Detecting Pretraining Data from Large Language Models.pdf
+1131982|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/others/DETECTING PRETRAINING DATA FROM LARGE LANGUAGE MODELS.pdf
+1315333
+1315333|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/multimodal/InternVL Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks.pdf
+1315333|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/multimodal/InternVLScaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks.pdf
+1372355
+1372355|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/RLHF/RAIN Your Language Models Can Align Themselves without Finetuning.pdf
+1372355|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/long_input/REFRAG Rethinking RAG based Decoding.pdf
+142627
+142627|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/inference/Fast Transformer Decoding One Write-Head is All You Need.pdf
+142627|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/others/Fast Transformer Decoding One Write-Head is All You Need.pdf
+1439522
+1439522|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLMS/Textbooks Are All You Need.pdf
+1439522|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/sft_scaling_law/Textbooks Are All You Need.pdf
+1531774
+1531774|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/survey/Large Models for Time Series and Spatio-Temporal Data A Survey and Outlook.pdf
+1531774|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/timeseries/Large Models for Time Series and Spatio Temporal Data A Survey and Outlook.pdf
+1564834
+1564834|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/SELF-REFINE iterative Refinement with self-feedback.pdf
+1564834|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_chain_of_thought/SELF-REFINE iterative Refinement with self-feedback.pdf
+1564834|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/reliablity/SELF-REFINE iterative Refinement with self-feedback.pdf
+2077361
+2077361|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/LLaMA Rider Spurring Large Language Models to Explore the Open World.pdf
+2077361|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/自主学习和探索/LLAMA RIDER SPURRING LARGE LANGUAGE MODELS TO EXPLORE THE OPEN WORLD.pdf
+2108532
+2108532|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/instruction_data_gen/MAGPIE Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing.pdf
+2108532|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/new_alignment/Magpie Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing.pdf
+2497316
+2497316|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/评估/FACTSCORE Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation.pdf
+2497316|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/evaluation/FACTSCORE Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation.pdf
+2605557
+2605557|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/RAG/Deep Researcher with Test-Time Diffusion.pdf
+2605557|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/post_train/Deep Researcher with Test-Time Diffusion.pdf
+2711295
+2711295|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLMS/PaLM Scaling Language Modeling with Pathways.pdf
+2711295|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_chain_of_thought/PaLM Scaling Language Modeling with Pathways.pdf
+296168
+296168|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/instruction_data_gen/Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data.pdf
+296168|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/practice_report/Baize, An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data.pdf
+3174661
+3174661|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/Neural Discrete Representation Learning.pdf
+3174661|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/image_generation/Neural Discrete Representation Learning.pdf
+3312767
+3312767|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_KG/Unifying Large Language Models and Knowledge Graphs A Roadmap.pdf
+3312767|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/survey/Unifying Large Language Models and Knowledge Graphs A Roadmap.pdf
+3772712
+3772712|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/Advanced Reasoning and Learning for Autonomous AI Agents.pdf
+3772712|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/自主学习和探索/Agent Q Advanced Reasoning and Learning for Autonomous AI Agents.pdf
+3797220
+3797220|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/code_generation/Competition-Level Code Generation with AlphaCode.pdf
+3797220|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_chain_of_thought/Competition-Level Code Generation with.pdf
+3797220|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/train_withcode/Competition-Level Code Generation with.pdf
+3797687
+3797687|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/垂直领域/AppAgent Multimodal Agents as Smartphone Users.pdf
+3797687|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/自主学习和探索/AppAgent Multimodal Agents as Smartphone Users.pdf
+416312
+416312|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/practice_report/BELLE, Exploring the Impact of Instruction Data Scaling on Large Language Models An Empirical Study on Real-world Use Cases.pdf
+416312|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/sft_scaling_law/Exploring the Impact of Instruction Data Scaling on Large Language Models An Empirical Study on Real-World Use Cases.pdf
+42575120
+42575120|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/model_edit/Language Models are Super Mario Absorbing Abilities from Homologous Models as a Free Lunch.pdf
+42575120|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/model_merge/Language Models are Super Mario Absorbing Abilities from Homologous Models as a Free Lunch.pdf
+516536
+516536|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/MemoryBank  Enhancing Large Language Models with Long term memory.pdf
+516536|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_memory/MemoryBank Enhancing Large Language Models with Long-Term Memory.pdf
+5193150
+5193150|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/A Survey on Self-Evolution of Large Language Models.pdf
+5193150|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/自主学习和探索/A Survey on Self-Evolution of Large Language Models.pdf
+544319
+544319|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/RLHF/LARGE LANGUAGE MODELS CAN SELF-IMPROVE.pdf
+544319|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_chain_of_thought/Large Language Models Can Self-Improve.pdf
+586778
+586778|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/instruction_data_gen/Instruction Mining High-Quality Instruction Data Selection for Large Language Models.pdf
+586778|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/sft_scaling_law/Instruction Mining High-Quality Instruction Data Selection for Large Language Models.pdf
+787911
+787911|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_chain_of_thought/LEARNING PERFORMANCE-IMPROVING CODE EDITS.pdf
+787911|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_engineer/LEARNING PERFORMANCE-IMPROVING CODE EDITS.pdf
+809384
+809384|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/RLHF/DeepMind Final-Answer RL Solving math word problems with processand outcome-based feedback.pdf
+809384|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/RLHF/DeepMind Solving math word problems with process- and outcome-based feedback.pdf
+809384|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/prompt_chain_of_thought/Solving math word problems with processand outcome-based feedback.pdf
+899298
+899298|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/The Flan Collection Designing Data and Methods.pdf
+899298|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/instruction_data_gen/The Flan Collection Designing Data and Methods for Effective Instruction Tuning.pdf
+899298|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/instruction_tunning/instruction_data_gen/The Flan Collection Designing Data and Methods.pdf
+976131
+976131|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/AUTOACT Automatic Agent Learning from Scratch via Self-Planning.pdf
+976131|/h/0-ai/0-chatgpt-on-wechat/0-lumina/DecryptPrompt/LLM_agent/multi_agent/AUTOACT Automatic Agent Learning from Scratch via Self-Planning.pdf

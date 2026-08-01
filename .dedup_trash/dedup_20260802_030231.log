@@ -1,0 +1,98 @@
+# 去重操作日志 - Sun Aug  2 03:02:31 CST 2026
+
+[MOVED] others/Fast Transformer Decoding One Write-Head is All You Need.pdf
+[KEEP]  inference/Fast Transformer Decoding One Write-Head is All You Need.pdf
+
+[MOVED] instruction_tunning/practice_report/Baize, An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data.pdf
+[KEEP]  instruction_tunning/instruction_data_gen/Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data.pdf
+
+[MOVED] instruction_tunning/sft_scaling_law/Exploring the Impact of Instruction Data Scaling on Large Language Models An Empirical Study on Real-World Use Cases.pdf
+[KEEP]  instruction_tunning/practice_report/BELLE, Exploring the Impact of Instruction Data Scaling on Large Language Models An Empirical Study on Real-world Use Cases.pdf
+
+[MOVED] LLM_memory/MemoryBank Enhancing Large Language Models with Long-Term Memory.pdf
+[KEEP]  LLM_agent/MemoryBank  Enhancing Large Language Models with Long term memory.pdf
+
+[MOVED] prompt_chain_of_thought/Large Language Models Can Self-Improve.pdf
+[KEEP]  RLHF/LARGE LANGUAGE MODELS CAN SELF-IMPROVE.pdf
+
+[MOVED] instruction_tunning/sft_scaling_law/Instruction Mining High-Quality Instruction Data Selection for Large Language Models.pdf
+[KEEP]  instruction_tunning/instruction_data_gen/Instruction Mining High-Quality Instruction Data Selection for Large Language Models.pdf
+
+[MOVED] prompt_engineer/LEARNING PERFORMANCE-IMPROVING CODE EDITS.pdf
+[KEEP]  prompt_chain_of_thought/LEARNING PERFORMANCE-IMPROVING CODE EDITS.pdf
+
+[MOVED] RLHF/DeepMind Solving math word problems with process- and outcome-based feedback.pdf
+[KEEP]  RLHF/DeepMind Final-Answer RL Solving math word problems with processand outcome-based feedback.pdf
+
+[MOVED] prompt_chain_of_thought/Solving math word problems with processand outcome-based feedback.pdf
+[KEEP]  RLHF/DeepMind Solving math word problems with process- and outcome-based feedback.pdf
+
+[MOVED] instruction_tunning/instruction_data_gen/The Flan Collection Designing Data and Methods for Effective Instruction Tuning.pdf
+[KEEP]  instruction_tunning/The Flan Collection Designing Data and Methods.pdf
+
+[MOVED] instruction_tunning/instruction_data_gen/The Flan Collection Designing Data and Methods.pdf
+[KEEP]  instruction_tunning/instruction_data_gen/The Flan Collection Designing Data and Methods for Effective Instruction Tuning.pdf
+
+[MOVED] LLM_agent/multi_agent/AUTOACT Automatic Agent Learning from Scratch via Self-Planning.pdf
+[KEEP]  LLM_agent/AUTOACT Automatic Agent Learning from Scratch via Self-Planning.pdf
+
+[MOVED] prompt_engineer/MedPrompt Can Generalist Foundation Models Outcompete Special-Purpose Tuning Case Study in Medicine.pdf
+[KEEP]  LLM_ability/Can Generalist Foundation Models Outcompete Special-Purpose Tuning Case Study in Medicine.pdf
+
+[MOVED] others/DETECTING PRETRAINING DATA FROM LARGE LANGUAGE MODELS.pdf
+[KEEP]  evaluation/Detecting Pretraining Data from Large Language Models.pdf
+
+[MOVED] multimodal/InternVLScaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks.pdf
+[KEEP]  multimodal/InternVL Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks.pdf
+
+[MOVED] instruction_tunning/sft_scaling_law/Textbooks Are All You Need.pdf
+[KEEP]  LLMS/Textbooks Are All You Need.pdf
+
+[MOVED] timeseries/Large Models for Time Series and Spatio Temporal Data A Survey and Outlook.pdf
+[KEEP]  survey/Large Models for Time Series and Spatio-Temporal Data A Survey and Outlook.pdf
+
+[MOVED] prompt_chain_of_thought/SELF-REFINE iterative Refinement with self-feedback.pdf
+[KEEP]  LLM_agent/SELF-REFINE iterative Refinement with self-feedback.pdf
+
+[MOVED] reliablity/SELF-REFINE iterative Refinement with self-feedback.pdf
+[KEEP]  prompt_chain_of_thought/SELF-REFINE iterative Refinement with self-feedback.pdf
+
+[MOVED] LLM_agent/自主学习和探索/LLAMA RIDER SPURRING LARGE LANGUAGE MODELS TO EXPLORE THE OPEN WORLD.pdf
+[KEEP]  LLM_agent/LLaMA Rider Spurring Large Language Models to Explore the Open World.pdf
+
+[MOVED] instruction_tunning/new_alignment/Magpie Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing.pdf
+[KEEP]  instruction_tunning/instruction_data_gen/MAGPIE Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing.pdf
+
+[MOVED] LLM_agent/评估/FACTSCORE Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation.pdf
+[KEEP]  evaluation/FACTSCORE Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation.pdf
+
+[MOVED] post_train/Deep Researcher with Test-Time Diffusion.pdf
+[KEEP]  RAG/Deep Researcher with Test-Time Diffusion.pdf
+
+[MOVED] prompt_chain_of_thought/PaLM Scaling Language Modeling with Pathways.pdf
+[KEEP]  LLMS/PaLM Scaling Language Modeling with Pathways.pdf
+
+[MOVED] image_generation/Neural Discrete Representation Learning.pdf
+[KEEP]  Neural Discrete Representation Learning.pdf
+
+[MOVED] survey/Unifying Large Language Models and Knowledge Graphs A Roadmap.pdf
+[KEEP]  LLM_KG/Unifying Large Language Models and Knowledge Graphs A Roadmap.pdf
+
+[MOVED] LLM_agent/自主学习和探索/Agent Q Advanced Reasoning and Learning for Autonomous AI Agents.pdf
+[KEEP]  LLM_agent/Advanced Reasoning and Learning for Autonomous AI Agents.pdf
+
+[MOVED] prompt_chain_of_thought/Competition-Level Code Generation with.pdf
+[KEEP]  code_generation/Competition-Level Code Generation with AlphaCode.pdf
+
+[MOVED] train_withcode/Competition-Level Code Generation with.pdf
+[KEEP]  prompt_chain_of_thought/Competition-Level Code Generation with.pdf
+
+[MOVED] LLM_agent/自主学习和探索/AppAgent Multimodal Agents as Smartphone Users.pdf
+[KEEP]  LLM_agent/垂直领域/AppAgent Multimodal Agents as Smartphone Users.pdf
+
+[MOVED] LLM_agent/自主学习和探索/A Survey on Self-Evolution of Large Language Models.pdf
+[KEEP]  LLM_agent/A Survey on Self-Evolution of Large Language Models.pdf
+
+[MOVED] model_merge/Language Models are Super Mario Absorbing Abilities from Homologous Models as a Free Lunch.pdf
+[KEEP]  model_edit/Language Models are Super Mario Absorbing Abilities from Homologous Models as a Free Lunch.pdf
+
