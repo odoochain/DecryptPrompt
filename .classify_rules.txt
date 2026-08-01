@@ -1,0 +1,70 @@
+# ============================================
+# 论文自动分类规则配置
+# 格式: 分类名|关键词1,关键词2,...|优先级
+# 优先级: 数字越小越优先 (1=最高)
+# ============================================
+
+# === 核心模型架构 ===
+LLMS|GPT-4,GPT-3,Llama,LLaMA,Qwen,QWen,GLM,PaLM,Gemini,Mistral,Claude,ChatGLM,BLOOM,Falcon,OPT,Yi,DeepSeek-V3,DeepSeek-V3.2,BloombergGPT,Phi-1,Phi-2,Phi-3,Phi-4,Backpack,Byte Latent Transformer|1
+new_model|Mixture-of-Experts,MoE,Diffusion Language Model,Continuous Thought Machine,TiDAR,Nested Learning,State Space Model,SSM,Mamba,RWKV,RetNet|2
+MOE|Mixture-of-Experts,Mixtral,Sparse Expert,Expert Parallelism,Switch Transformer|3
+domain_llms|Finance,Financial,Medical,Biomedical,Legal,Code,Programming Language,Domain-Specific,Domain Adaptation,BioGPT,BBT-Fin,CFBenchmark,CFGPT,ChatDoctor,XuanYuan,FinBen,FinGPT,DiscoLaw|5
+
+# === 训练方法 ===
+pretrain_data|Pretrain,Pre-training Data,Corpus Curation,Data Quality,Web Crawl,Common Crawl,The Pile,C4,RedPajama|10
+instruction_tunning|Instruction Tuning,Instruction Follow,InstructGPT,FLAN,T0,Vicuna,WizardLM,Alpaca,Self-Instruct,Baize,BELLE,ShareGPT,Ability Loss,Generalization Loss,SFT Scaling Law|15
+prompt_tunning|Prefix Tuning,P-Tuning,Prompt Tuning,Soft Prompt,Learnable Prompt,AutoPrompt,PET,LM-BFF|16
+
+# === 对齐与强化学习 ===
+RLHF|RLHF,Reinforcement Learning from Human Feedback,PPO,Proximal Policy Optimization,Reward Model,DPO,Direct Preference Optimization,RRHF,SLiC-HF,Constitutional AI,Anthropic Helpfulness,Red Teaming,Refusal Training,Preference Alignment,ORPO,KTO,SIMPO|20
+post_train|Inference Scaling,Test-Time Compute,Slow Thinking,Chain of Thought Training,o1,o3,Reasoning Model,Long Chain of Thought,Process Reward,Outcome Reward,GRPO,ReST,Self-Correction,Test-Time Training,DeepSeek-R1,R1,Kimi K1.5,Long Thinking,Reasoning Trace,QwQ,RL for Reasoning|22
+
+# === Prompt 与推理 ===
+prompt_engineer|Prompt Engineering,Few-shot,Zero-shot,In-Context Learning,EmotionPrompt,Tree of Thoughts,Least-to-Most,Complexity-based,Active Prompting,MedPrompt,ADAPET,Demonstration Selection|25
+prompt_chain_of_thought|Chain-of-Thought,CoT,Tree of Thoughts,ToT,Graph of Thoughts,GoT,Algorithm of Thoughts,AoT,Self-Consistency,Least-to-Most prompting,Step-Back,Verify-and-Edit,Plan-and-Solve,Buffer of Thoughts,Reversal of Thought,Decomposed Prompting,Progressive Hint,SELF-REFINE,STaR,Quiet-STaR,Self-Discover|26
+
+# === Agent 系统 ===
+LLM_agent|Agent,Tool Use,Toolformer,Gorilla,ReAct,Self Ask,Function Calling,API Call,WebGPT,WebCPM,ToolLLM,AnyTool,AutoGPT,LangChain,AutoGen,CrewAI,Multi-Agent,Agent Team,Planning,Action,Observation,Tool Learning|30
+LLM_memory|Memory,Mem0,Vector Store,Retrieval Memory,Working Memory,Episodic Memory,Semantic Memory,MemoryBank,MATTS,CFGM,MIRIX|32
+LLM_dialog|Dialogue System,Conversational AI,Turn-taking,Topic Management,Task-Oriented Dialogue,DiagGPT|33
+
+# === RAG 与知识 ===
+RAG|RAG,Retrieval-Augmented Generation,Retriever,Reranker,Dense Retrieval,Sparse Retrieval,BM25,Hybrid Retrieval,Embedding Model,Chunking Strategy,GraphRAG|35
+LLM_KG|Knowledge Graph,KG,Triple Extraction,Relation Extraction,Entity Linking,Unifying LLM and KG|36
+
+# === 多模态 ===
+multimodal|Multimodal,Vision-Language,VLB,CLIP,Flamingo,BLIP,LLaVA,InternVL,AnyGPT,Visual Question Answering,VQA,Image Understanding|40
+image_generation|Image Generation,Diffusion Model,Stable Diffusion,DALL-E,VAE,VQ-VAE,Neural Discrete Representation,GAN,Text-to-Image|41
+LLM_chart|Chart Understanding,Table Understanding,Chart QA,Table QA,PlotQA,Chart-to-Text|42
+
+# === 效率优化 ===
+inference|Inference Optimization,KV Cache,Quantization Aware,Speculative Decoding,Flash Attention,Attention Optimization,Continuous Batching,Throughput Optimization,Latency Reduction,Fast Transformer,Write-Head|45
+Quantization|Quantization,INT8,INT4,GGUF,AWQ,GPTQ,LoRA Quantization,Post-Training Quantization|46
+
+# === 可靠性与安全 ===
+reliablity|Hallucination,Factual Consistency,Fact Verification,FACTSCORE,Robustness,Adversarial Robustness,OOD Detection,Calibration,Uncertainty,Truthful AI,Self-Critique|48
+adversarial|Adversarial Attack,Jailbreak,Prompt Injection,Red Team,Backdoor,Membership Inference,Model Stealing|49
+
+# === 应用领域 ===
+nl2sql|NL2SQL,Text-to-SQL,Natural Language to SQL,Spider,BIRD,SQL-Palm,DIN,C3|50
+code_generation|Code Generation,Code Completion,Code Synthesis,AlphaCode,CodeRL,HumanEval,MBPP,APPSCODECHAIN|51
+timeseries|Time Series,Forecasting,Temporal Data,TimeSeries Foundation Model|52
+context_engineer|Context Engineering,Context Window,System Prompt,Agentic Context|53
+long_input|Long Context,Long Input,Position Embedding,RoPE,ALiBi,Unlimiformer,PCW,NBCE|54
+long_output|Long Output,Length Control,Generation Length|55
+multi-turn|Multi-turn Dialogue,Conversation History,Dialog State Tracking|56
+
+# === 模型编辑与合并 ===
+model_edit|Model Editing,Knowledge Editing,Model Update,ROME,MEMIT|58
+model_merge|Model Merge,Model Soup,Weight Averaging,Task Arithmetic,Super Mario,Ties Merge,Dare,Language Models are Super Mario|59
+
+# === 进阶主题 ===
+self-evolution|Self-Evolution,Self-Improvement,Self-Play,AlphaEvolve,Evolving Agent|60
+evaluation|Evaluation,Benchmark,MMLU,HellaSwag,Humaneval,GSM8K,ARC,TruthfulQA,Big-Bench,MT-Bench,AlpacaEval|61
+survey|Survey,Review,Comprehensive Study,Literature Review|62
+train_withcode|Code Pretraining,Code LLM,StarCoder,CodeParrot,CodeGen,Training with Code|63
+humanoid|Humanoid,Embodied AI,Robot Learning,Physical Interaction|64
+LLM_ability|Capability,Emergent Ability,Scaling Law,In-Context Learning Analysis,Knowledge Probe|65
+
+# === 默认分类 ===
+others|Miscellaneous,Other,General|99
