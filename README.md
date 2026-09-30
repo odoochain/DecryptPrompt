@@ -8,6 +8,7 @@
 - [开源SFT，RLHF，Pretrain 数据集](开源数据.MD)
 - [AIGC各领域应用汇总](AIGC各领域应用.MD)
 - [Prompt教程，经典博客和AI会议访谈](教程博客会议.MD)
+- [推荐Skills工具合集](推荐SKILLS.MD)
 
 ## 跟着博客读论文
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
@@ -78,22 +79,39 @@
 - [解密Prompt系列66. 视觉Token爆炸→DeepSeek-OCR光学压缩](https://cloud.tencent.com/developer/article/2600104)
 - [解密Prompt系列67. 智能体的经济学：从架构选型到工具预算](https://cloud.tencent.com/developer/article/2610869)
 - [解密Prompt系列68. 告别逐词蹦字 - Transformer 的新推理范式](https://cloud.tencent.com/developer/article/2616180)
+- [解密Prompt系列69. 从上下文管理到Runtime操作系统](https://cloud.tencent.com/developer/article/2626232)
+- [解密Prompt系列70. 从 MLA 到 CSA，聊聊大模型 Attention 的“瘦身”与“闪送”](https://cloud.tencent.com/developer/article/2699614)
+- [解密Prompt系列71. 从DSpark聊聊大模型 Decoding 提速的技术演化](https://cloud.tencent.com/developer/article/2716046)
+- [解密Prompt系列72. 多模态大模型进化史：从"翻译官"到"原生双语大脑"](https://cloud.tencent.com/developer/article/2730799)
 
 ## 和AI一起搞事情
 - [和AI一起搞事情#1: opencode ×browser-use实战复盘](https://cloud.tencent.com/developer/user/6190096)
 - [和AI一起搞事情#2：边剥龙虾&边做个中医方剂技能](https://cloud.tencent.com/developer/article/2642702)
 - [和AI一起搞事情#3：Claude Teammate 开发中医游戏翻车了](https://cloud.tencent.com/developer/article/2650411)
+- [和AI一起搞事情#4. 小白用claude code做游戏究竟能踩多少坑](https://cloud.tencent.com/developer/article/2657050)
+- [和AI一起搞事情#5：技能进阶与Claude Design初体验](https://cloud.tencent.com/developer/article/2664349)
+- [和AI一起搞事情#6. 如何实现Lovart元素编辑？](https://cloud.tencent.com/developer/article/2673064)
+- [和AI一起搞事情#7. 给游戏NPC接入Hermes？](https://cloud.tencent.com/developer/article/2685619)
+- [和AI一起搞事情#8. 分析1000+对话得到：技能炼金术](https://cloud.tencent.com/developer/article/2738789)
+
 
 ## 论文汇总
-### paper List
-- https://github.com/dongguanting/In-Context-Learning_PaperList
-- https://github.com/thunlp/PromptPapers
-- https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
-- https://github.com/thunlp/ToolLearningPapers
-- https://github.com/MLGroupJLU/LLM-eval-survey
-- https://github.com/thu-coai/PaperForONLG
-- https://github.com/khuangaf/Awesome-Chart-Understanding
-- https://github.com/srush/awesome-o1/?tab=readme-ov-file
+
+### Harness
+- Agensh: Scaling Organizational Intelligence to 1,024 Agents
+- Procedural Graphs: Self-Evolving Execution Structures for LLM Agents
+- LoopArena
+- SKILL.state: Scalable Long-Horizon Agent Skills
+- A Programming Paradigm for Spatiotemporal Composability
+- AutoSaddler: Automatic Harness Optimization
+- Meta Harness
+- Loop Engineering: The Anthropic Playbook
+
+### Skill Evolution
+- WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
+- SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
+- SkillOS: Learning Skill Curation for Self-Evolving Agents
+- Evolution Strategies for Skill Learning
 
 ### 图像生成
 - Neural Discrete Representation Learning
@@ -199,6 +217,7 @@
   - ReasonMed: A 370K Multi-Agent Generated Dataset for Advancing Medical Reasoning
 
 ### Context Engineer
+- Lost in Compaction
 - A Survey of Context Engineering for Large Language Models
 - Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
 - Scaling Long-Horizon LLM Agent via Context-Folding
@@ -212,6 +231,7 @@
 - The-Complete-Guide-to-Building-Skill-for-Claude
 
 ### New Model Architecture
+- Nemotron-Labs-Diffusion: A Tri-Mode Language Model
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
 - Less is More: Recursive Reasoning with Tiny Networks
 - Continuous Thought Machines
@@ -219,6 +239,7 @@
 - Nested Learning: The Illusion of Deep Learning Architectures
 
 ### 主流LLMS和预训练
+- Kimi K2
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
 - PaLM: Scaling Language Modeling with Pathways
 - PaLM 2 Technical Report
@@ -344,6 +365,7 @@
     - Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs
 
 ### Self-Evolution
+- Recursive Self-Improvement via On-Policy Distillation for Reasoning
 - Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents
 - [Alpha Evolve](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
 - Can Large Reasoning Models Self-Train
@@ -451,6 +473,7 @@
 
 ### Memory
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
+- Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents
 - A-MEM: Agentic Memory for LLM Agents
 - MemInsight: Autonomous Memory Augmentation for LLM Agents
 - G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems
@@ -1047,6 +1070,7 @@
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
+  - Language Models Can Control Their Own Attention
   - Unlimiformer: Long-Range Transformers with Unlimited Length Input
   - Parallel Context Windows for Large Language Models
   - [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617) :star:
@@ -1278,6 +1302,7 @@
 - Efficient Large Scale Language Modeling with Mixtures of Experts
 
 ### Multimodal
+- Image Generators are Generalist Vision Learners
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models

@@ -109,6 +109,7 @@
 - [Lumina](https://lumina.sh/c5bbe32b-4fb7-476a-81aa-fe269f67f283):  据说搜索相关性比google好5倍的开源论文搜索+AI摘要总结
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
 - [OpenAlex](https://openalex.org/works?page=1&filter=default.search%3ALLM%20long%20input%20): 提供更友好的API论文访问
+- [AImodels.fyi](https://aimodels.fyi)
 - [Emergent Mind](https://www.emergentmind.com/): 更好的提问式检索效果和RAG问答
 - [ELICIT](https://elicit.com/): 和SCISPACE相似，支持一键生成论文relatied work
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素，多论文总结，观点对比工具。产品排名巨高，但个人感觉搜索做的有提升空间
@@ -145,6 +146,7 @@
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
 - [STORM](https://storm.genie.stanford.edu/): 其实已经用了蛮久一直忘记放上来，对比千篇一律的大纲写作，整个流程更human的长文本写作方案
+- [kdpbook.io](https://kdpbook.io): 面向亚马逊KDP的AI图书工作室，在对话里描述一本书或导入自己的书稿，自动完成写作、插图和排版，导出KDP所需的内页PDF、全包封面PDF、Kindle EPUB和上架信息表，覆盖绘本、涂色书、小说、非虚构等36种图书类型
 
 ### 金融垂直领域
 - [FinGenius](http://fingenius.cn/):多Agent金融博弈系统，模拟市场参与者，预测市场走势
@@ -203,7 +205,9 @@
 - [Youtube Summarized](https://app.youtubesummarized.com/): Youtube视频一键总结，分段总结更好，更能直接产出访谈稿件
 - [NoteGPT](https://notegpt.io/): Youtube视频一键总结，支持更结构化的脑图和亮点总结
 - [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要
+- [Summarizer.tube](https://summarizer.tube): Youtube视频一键总结，要点自带可点击时间戳，自动字幕也能读，覆盖50+种语言；另有免登录的字幕提取工具
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档 
+- [shortshort](https://www.shortshort.io): 长视频拆条成9:16竖屏短视频，逐字转写后选出首尾为完整句子的15-90秒片段，跟随人脸重新构图，配逐字字幕导出MP4
 
 ### 代码copilot & BI工具
 - [WindSurf](https://windsurfai.org/zh): 2.0版本支持动态记忆，可以记录你的使用习惯并进行持续优化
